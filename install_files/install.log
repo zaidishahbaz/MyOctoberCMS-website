@@ -1,0 +1,1015 @@
+.====================================================================.
+                                                                      
+ .d8888b.   .o8888b.   db  .d8888b.  d8888b. d88888b d8888b.  .d888b. 
+.8P    Y8. d8P    Y8   88 .8P    Y8. 88  `8D 88'     88  `8D .8P , Y8.
+88      88 8P      oooo88 88      88 88oooY' 88oooo  88oobY' 88  |  88
+88      88 8b      ~~~~88 88      88 88~~~b. 88~~~~  88`8b   88  |/ 88
+`8b    d8' Y8b    d8   88 `8b    d8' 88   8D 88.     88 `88. `8b | d8'
+ `Y8888P'   `Y8888P'   YP  `Y8888P'  Y8888P' Y88888P 88   YD  `Y888P' 
+                                                                      
+`========================== INSTALLATION LOG ========================'
+
+[2019/01/10 02:50:56] Host: Windows NT DESKTOP-MFR5PSL 10.0 build 17134 (Windows 10) i586
+[2019/01/10 02:50:56] PHP version: 7.3.0
+[2019/01/10 02:50:56] Server software: Apache/2.4.37 (Win32) OpenSSL/1.1.1a PHP/7.3.0
+[2019/01/10 02:50:56] Operating system: WINNT
+[2019/01/10 02:50:56] Memory limit: 128M
+[2019/01/10 02:50:56] Max execution time: 3600
+.============================ POST REQUEST ==========================.
+[2019/01/10 02:50:57] Postback payload: Array
+(
+    [code] => phpVersion
+    [handler] => onCheckRequirement
+)
+
+[2019/01/10 02:50:57] System check: phpVersion
+[2019/01/10 02:50:57] Requirement phpVersion +OK
+[2019/01/10 02:50:57] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2019/01/10 02:50:58] Postback payload: Array
+(
+    [code] => curlLibrary
+    [handler] => onCheckRequirement
+)
+
+[2019/01/10 02:50:58] System check: curlLibrary
+[2019/01/10 02:50:58] Requirement curlLibrary +OK
+[2019/01/10 02:50:58] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2019/01/10 02:50:58] Postback payload: Array
+(
+    [code] => liveConnection
+    [handler] => onCheckRequirement
+)
+
+[2019/01/10 02:50:58] System check: liveConnection
+[2019/01/10 02:50:59] Server request: ping
+[2019/01/10 02:50:59] Request information: Array
+(
+    [url] => http://octobercms.com/api/ping
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 361
+    [request_size] => 171
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 953000
+    [namelookup_time] => 31000
+    [connect_time] => 156000
+    [pretransfer_time] => 156000
+    [size_upload] => 40
+    [size_download] => 12
+    [speed_download] => 12
+    [speed_upload] => 41
+    [download_content_length] => 12
+    [upload_content_length] => 40
+    [starttransfer_time] => 937000
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 2606:4700:30::6818:710c
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 80
+    [local_ip] => 2405:204:41a9:18fb:986b:e1d5:aaa2:3b93
+    [local_port] => 54282
+    [http_version] => 2
+    [protocol] => 1
+    [ssl_verifyresult] => 0
+    [scheme] => HTTP
+    [content_length_download] => 12
+    [content_length_upload] => 40
+    [appconnect_time] => 0
+)
+
+[2019/01/10 02:50:59] Requirement liveConnection +OK
+[2019/01/10 02:50:59] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2019/01/10 02:51:00] Postback payload: Array
+(
+    [code] => writePermission
+    [handler] => onCheckRequirement
+)
+
+[2019/01/10 02:51:00] System check: writePermission
+[2019/01/10 02:51:00] Requirement writePermission +OK
+[2019/01/10 02:51:00] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2019/01/10 02:51:01] Postback payload: Array
+(
+    [code] => pdoLibrary
+    [handler] => onCheckRequirement
+)
+
+[2019/01/10 02:51:01] System check: pdoLibrary
+[2019/01/10 02:51:01] Requirement pdoLibrary +OK
+[2019/01/10 02:51:01] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2019/01/10 02:51:01] Postback payload: Array
+(
+    [code] => mbstringLibrary
+    [handler] => onCheckRequirement
+)
+
+[2019/01/10 02:51:01] System check: mbstringLibrary
+[2019/01/10 02:51:01] Requirement mbstringLibrary +OK
+[2019/01/10 02:51:01] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2019/01/10 02:51:02] Postback payload: Array
+(
+    [code] => fileinfoLibrary
+    [handler] => onCheckRequirement
+)
+
+[2019/01/10 02:51:02] System check: fileinfoLibrary
+[2019/01/10 02:51:02] Requirement fileinfoLibrary +OK
+[2019/01/10 02:51:02] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2019/01/10 02:51:02] Postback payload: Array
+(
+    [code] => sslLibrary
+    [handler] => onCheckRequirement
+)
+
+[2019/01/10 02:51:03] System check: sslLibrary
+[2019/01/10 02:51:03] Requirement sslLibrary +OK
+[2019/01/10 02:51:03] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2019/01/10 02:51:03] Postback payload: Array
+(
+    [code] => zipLibrary
+    [handler] => onCheckRequirement
+)
+
+[2019/01/10 02:51:03] System check: zipLibrary
+[2019/01/10 02:51:03] Requirement zipLibrary +OK
+[2019/01/10 02:51:03] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2019/01/10 02:51:04] Postback payload: Array
+(
+    [code] => gdLibrary
+    [handler] => onCheckRequirement
+)
+
+[2019/01/10 02:51:04] System check: gdLibrary
+[2019/01/10 02:51:04] Requirement gdLibrary +OK
+[2019/01/10 02:51:04] Execute handler (onCheckRequirement): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2019/01/10 02:56:48] Postback payload: Array
+(
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => acme_oct
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => Shahbaz
+    [admin_last_name] => Zaidi
+    [admin_email] => *******@*****.com
+    [admin_login] => admin
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [handler] => onValidateDatabase
+)
+
+.============================ POST REQUEST ==========================.
+[2019/01/10 02:56:48] Postback payload: Array
+(
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => acme_oct
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => Shahbaz
+    [admin_last_name] => Zaidi
+    [admin_email] => *******@*****.com
+    [admin_login] => admin
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [handler] => onValidateAdminAccount
+)
+
+.============================ POST REQUEST ==========================.
+[2019/01/10 02:56:48] Postback payload: Array
+(
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => acme_oct
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => Shahbaz
+    [admin_last_name] => Zaidi
+    [admin_email] => *******@*****.com
+    [admin_login] => admin
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [handler] => onValidateAdvancedConfig
+)
+
+.============================ POST REQUEST ==========================.
+[2019/01/10 02:57:11] Postback payload: Array
+(
+    [handler] => onGetPopularThemes
+)
+
+[2019/01/10 02:57:13] Server request: theme/popular
+[2019/01/10 02:57:13] Request information: Array
+(
+    [url] => http://octobercms.com/api/theme/popular
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 363
+    [request_size] => 180
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 1141000
+    [namelookup_time] => 109000
+    [connect_time] => 219000
+    [pretransfer_time] => 219000
+    [size_upload] => 40
+    [size_download] => 3875
+    [speed_download] => 3396
+    [speed_upload] => 35
+    [download_content_length] => 3875
+    [upload_content_length] => 40
+    [starttransfer_time] => 1141000
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 2606:4700:30::6818:710c
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 80
+    [local_ip] => 2405:204:41a9:18fb:986b:e1d5:aaa2:3b93
+    [local_port] => 54312
+    [http_version] => 2
+    [protocol] => 1
+    [ssl_verifyresult] => 0
+    [scheme] => HTTP
+    [content_length_download] => 3875
+    [content_length_upload] => 40
+    [appconnect_time] => 0
+)
+
+[2019/01/10 02:57:13] Execute handler (onGetPopularThemes): Array
+(
+    [0] => Array
+        (
+            [name] => Clean Blog
+            [description] => Clean blogger theme.
+            [code] => Responsiv.Clean
+            [updated_at] => 2017-04-03 19:39:38
+            [image] => //octobercms.com/storage/app/uploads/public/58e/304/7a4/thumb_6978_210_140_0_0_crop.png
+            [author] => Responsiv Internet
+            [hash] => 07e5b7066168a94349ac92018770c2e8
+            [demo_url] => http://daftspunk.com/
+            [product_url] => http://octobercms.com/theme/responsiv-clean
+        )
+
+    [1] => Array
+        (
+            [name] => New Age
+            [description] => Landing page for mobile apps
+            [code] => VojtaSvoboda.newage
+            [updated_at] => 2016-10-20 17:20:43
+            [image] => //octobercms.com/storage/app/uploads/public/580/7eb/dc9/thumb_5770_210_140_0_0_crop.png
+            [author] => Vojta Svoboda
+            [hash] => 09d9e47e64a2ed47dc35146a792008c2
+            [demo_url] => https://blackrockdigital.github.io/startbootstrap-new-age/
+            [product_url] => http://octobercms.com/theme/vojtasvoboda-newage
+        )
+
+    [2] => Array
+        (
+            [name] => Stellar
+            [description] => a clean, responsive one page and blog theme
+            [code] => Zwiebl.zwiebl_stellar
+            [updated_at] => 2016-09-27 16:56:35
+            [image] => //octobercms.com/storage/app/uploads/public/57e/bb4/fe9/thumb_5641_210_140_0_0_crop.png
+            [author] => Alpen.Space
+            [hash] => 19345446d87ad08e6937503019a43fd9
+            [demo_url] => https://demo-stellar.alpen.space/
+            [product_url] => http://octobercms.com/theme/zwiebl-zwiebl-stellar
+        )
+
+    [3] => Array
+        (
+            [name] => Blank Bootstrap 4
+            [description] => A blank Bootstrap 4 template
+            [code] => Hambern.hambern-blank-bootstrap-4
+            [updated_at] => 2016-08-23 17:57:44
+            [image] => //octobercms.com/storage/app/uploads/public/57b/9ba/c48/thumb_5365_210_140_0_0_crop.png
+            [author] => Mattias Hamberg
+            [hash] => 9a6762de633774de2cebf69a88f290d1
+            [demo_url] => 
+            [product_url] => http://octobercms.com/theme/hambern-hambern-blank-bootstrap-4
+        )
+
+    [4] => Array
+        (
+            [name] => Bonjour
+            [description] => A sample multi-lingual theme for translated content.
+            [code] => RainLab.Bonjour
+            [updated_at] => 2016-07-03 21:05:29
+            [image] => //octobercms.com/storage/app/uploads/public/577/9df/850/thumb_4911_210_140_0_0_crop.png
+            [author] => RainLab
+            [hash] => f1084f81e0e1c5c8d22317794292deb3
+            [demo_url] => 
+            [product_url] => http://octobercms.com/theme/rainlab-bonjour
+        )
+
+    [5] => Array
+        (
+            [name] => Viola
+            [description] => One Page Theme based on Bootstrap 4 with different color schemes, scss files included
+            [code] => JumpLink.Viola
+            [updated_at] => 2016-07-11 09:55:39
+            [image] => //octobercms.com/storage/app/uploads/public/574/6af/435/thumb_4705_210_140_0_0_crop.png
+            [author] => JumpLink
+            [hash] => fe09a3915724fcc241e0e5914c8ea346
+            [demo_url] => http://healthyteeth.jumplink.eu/
+            [product_url] => http://octobercms.com/theme/jumplink-viola
+        )
+
+    [6] => Array
+        (
+            [name] => Relax
+            [description] => A fictional site called House of Chairs that demonstrates how to build a client-friendly website.
+            [code] => RainLab.Relax
+            [updated_at] => 2015-07-01 19:16:08
+            [image] => //octobercms.com/storage/app/uploads/public/559/49e/2da/thumb_2585_210_140_0_0_crop.png
+            [author] => RainLab
+            [hash] => a35c64b09ad6347b8a226291e5b8fd75
+            [demo_url] => 
+            [product_url] => http://octobercms.com/theme/rainlab-relax
+        )
+
+    [7] => Array
+        (
+            [name] => Vanilla
+            [description] => A plain starter template that implements account management, a blog and community forum.
+            [code] => RainLab.Vanilla
+            [updated_at] => 2015-04-14 16:37:36
+            [image] => //octobercms.com/storage/app/uploads/public/552/da4/0f8/thumb_2106_210_140_0_0_crop.png
+            [author] => RainLab
+            [hash] => 4b893d1c085a298e9b9b1d13635a675f
+            [demo_url] => 
+            [product_url] => http://octobercms.com/theme/rainlab-vanilla
+        )
+
+    [8] => Array
+        (
+            [name] => Flat UI
+            [description] => A theme that uses a Flat user-interface and has no dependencies on others plugins.
+            [code] => Responsiv.Flat
+            [updated_at] => 2014-07-23 21:32:51
+            [image] => //octobercms.com/storage/app/uploads/public/53d/084/fbc/thumb_543_210_140_0_0_crop.png
+            [author] => Responsiv Internet
+            [hash] => 3b3994c2c50d1b0f49a0725d764c12e8
+            [demo_url] => 
+            [product_url] => http://octobercms.com/theme/responsiv-flat
+        )
+
+)
+
+.============================ POST REQUEST ==========================.
+[2019/01/10 02:57:50] Postback payload: Array
+(
+    [name] => Responsiv.Clean
+    [handler] => onThemeDetails
+)
+
+[2019/01/10 02:57:50] Server request: theme/detail
+[2019/01/10 02:57:50] Request information: Array
+(
+    [url] => http://octobercms.com/api/theme/detail
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 362
+    [request_size] => 200
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 687000
+    [namelookup_time] => 1
+    [connect_time] => 140000
+    [pretransfer_time] => 140000
+    [size_upload] => 61
+    [size_download] => 664
+    [speed_download] => 966
+    [speed_upload] => 88
+    [download_content_length] => 664
+    [upload_content_length] => 61
+    [starttransfer_time] => 687000
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 2606:4700:30::6818:700c
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 80
+    [local_ip] => 2405:204:41a9:18fb:986b:e1d5:aaa2:3b93
+    [local_port] => 54321
+    [http_version] => 2
+    [protocol] => 1
+    [ssl_verifyresult] => 0
+    [scheme] => HTTP
+    [content_length_download] => 664
+    [content_length_upload] => 61
+    [appconnect_time] => 0
+)
+
+[2019/01/10 02:57:50] Execute handler (onThemeDetails): Array
+(
+    [name] => Clean Blog
+    [description] => Clean blogger theme.
+    [code] => Responsiv.Clean
+    [updated_at] => 2017-04-03 19:39:38
+    [image] => //octobercms.com/storage/app/uploads/public/58e/304/7a4/thumb_6978_210_140_0_0_crop.png
+    [author] => Responsiv Internet
+    [hash] => 07e5b7066168a94349ac92018770c2e8
+    [demo_url] => http://daftspunk.com/
+    [product_url] => http://octobercms.com/theme/responsiv-clean
+    [require] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Blog
+                    [description] => A robust blogging platform.
+                    [code] => RainLab.Blog
+                    [updated_at] => 2014-05-02 01:17:59
+                    [image] => http://placehold.it/64x64
+                    [author] => October
+                    [hash] => 791f8428613d4d383481462d3d271477
+                    [demo_url] => 
+                    [product_url] => 
+                )
+
+        )
+
+)
+
+.============================ POST REQUEST ==========================.
+[2019/01/10 02:57:51] Postback payload: Array
+(
+    [step] => getMetaData
+    [meta] => 
+    [plugins] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Blog
+                    [description] => A robust blogging platform.
+                    [code] => RainLab.Blog
+                    [updated_at] => 2014-05-02 01:17:59
+                    [image] => http://placehold.it/64x64
+                    [author] => October
+                    [hash] => 791f8428613d4d383481462d3d271477
+                    [demo_url] => 
+                    [product_url] => 
+                )
+
+        )
+
+    [themes] => Array
+        (
+            [0] => Array
+                (
+                    [name] => Clean Blog
+                    [description] => Clean blogger theme.
+                    [code] => Responsiv.Clean
+                    [updated_at] => 2017-04-03 19:39:38
+                    [image] => //octobercms.com/storage/app/uploads/public/58e/304/7a4/thumb_6978_210_140_0_0_crop.png
+                    [author] => Responsiv Internet
+                    [hash] => 07e5b7066168a94349ac92018770c2e8
+                    [demo_url] => http://daftspunk.com/
+                    [product_url] => http://octobercms.com/theme/responsiv-clean
+                    [require] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [name] => Blog
+                                    [description] => A robust blogging platform.
+                                    [code] => RainLab.Blog
+                                    [updated_at] => 2014-05-02 01:17:59
+                                    [image] => http://placehold.it/64x64
+                                    [author] => October
+                                    [hash] => 791f8428613d4d383481462d3d271477
+                                    [demo_url] => 
+                                    [product_url] => 
+                                )
+
+                        )
+
+                )
+
+        )
+
+    [handler] => onInstallStep
+)
+
+[2019/01/10 02:57:51] Install step: getMetaData
+[2019/01/10 02:57:52] Server request: core/install
+[2019/01/10 02:57:52] Request information: Array
+(
+    [url] => http://octobercms.com/api/core/install
+    [content_type] => application/json
+    [http_code] => 200
+    [header_size] => 362
+    [request_size] => 237
+    [filetime] => -1
+    [ssl_verify_result] => 0
+    [redirect_count] => 0
+    [total_time] => 1016000
+    [namelookup_time] => 1
+    [connect_time] => 125000
+    [pretransfer_time] => 125000
+    [size_upload] => 98
+    [size_download] => 233
+    [speed_download] => 229
+    [speed_upload] => 96
+    [download_content_length] => 233
+    [upload_content_length] => 98
+    [starttransfer_time] => 1016000
+    [redirect_time] => 0
+    [redirect_url] => 
+    [primary_ip] => 2606:4700:30::6818:700c
+    [certinfo] => Array
+        (
+        )
+
+    [primary_port] => 80
+    [local_ip] => 2405:204:41a9:18fb:986b:e1d5:aaa2:3b93
+    [local_port] => 54322
+    [http_version] => 2
+    [protocol] => 1
+    [ssl_verifyresult] => 0
+    [scheme] => HTTP
+    [content_length_download] => 233
+    [content_length_upload] => 98
+    [appconnect_time] => 0
+)
+
+[2019/01/10 02:57:52] Step getMetaData +OK
+[2019/01/10 02:57:52] Execute handler (onInstallStep): Array
+(
+    [result] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => d1028fbd034b2639b0d2ca0869002836
+                    [build] => 446
+                    [uhash] => b4b79ec07b137e6c84605ac76f616781
+                )
+
+            [plugins] => Array
+                (
+                    [RainLab.Blog] => 791f8428613d4d383481462d3d271477
+                )
+
+            [themes] => Array
+                (
+                    [Responsiv.Clean] => 07e5b7066168a94349ac92018770c2e8
+                )
+
+        )
+
+)
+
+.============================ POST REQUEST ==========================.
+[2019/01/10 02:57:52] Postback payload: Array
+(
+    [step] => downloadCore
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => d1028fbd034b2639b0d2ca0869002836
+                    [build] => 446
+                    [uhash] => b4b79ec07b137e6c84605ac76f616781
+                )
+
+            [plugins] => Array
+                (
+                    [RainLab.Blog] => 791f8428613d4d383481462d3d271477
+                )
+
+            [themes] => Array
+                (
+                    [Responsiv.Clean] => 07e5b7066168a94349ac92018770c2e8
+                )
+
+        )
+
+    [handler] => onInstallStep
+)
+
+[2019/01/10 02:57:52] Install step: downloadCore
+[2019/01/10 02:58:05] Saving to file (core): C:/xampp/htdocs/acme/install_files/temp/a74ad8dfacd4f985eb3977517615ce25.arc
+[2019/01/10 02:58:05] Step downloadCore +OK
+[2019/01/10 02:58:05] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2019/01/10 02:58:06] Postback payload: Array
+(
+    [step] => downloadPlugin
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => d1028fbd034b2639b0d2ca0869002836
+                    [build] => 446
+                    [uhash] => b4b79ec07b137e6c84605ac76f616781
+                )
+
+            [plugins] => Array
+                (
+                    [RainLab.Blog] => 791f8428613d4d383481462d3d271477
+                )
+
+            [themes] => Array
+                (
+                    [Responsiv.Clean] => 07e5b7066168a94349ac92018770c2e8
+                )
+
+        )
+
+    [name] => RainLab.Blog
+    [handler] => onInstallStep
+)
+
+[2019/01/10 02:58:06] Install step: downloadPlugin
+[2019/01/10 02:58:07] Saving to file (RainLab.Blog-plugin): C:/xampp/htdocs/acme/install_files/temp/33b538b0804bdcfce25684369ded882c.arc
+[2019/01/10 02:58:07] Step downloadPlugin +OK
+[2019/01/10 02:58:07] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2019/01/10 02:58:08] Postback payload: Array
+(
+    [step] => downloadTheme
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => d1028fbd034b2639b0d2ca0869002836
+                    [build] => 446
+                    [uhash] => b4b79ec07b137e6c84605ac76f616781
+                )
+
+            [plugins] => Array
+                (
+                    [RainLab.Blog] => 791f8428613d4d383481462d3d271477
+                )
+
+            [themes] => Array
+                (
+                    [Responsiv.Clean] => 07e5b7066168a94349ac92018770c2e8
+                )
+
+        )
+
+    [name] => Responsiv.Clean
+    [handler] => onInstallStep
+)
+
+[2019/01/10 02:58:08] Install step: downloadTheme
+[2019/01/10 02:58:12] Saving to file (Responsiv.Clean-theme): C:/xampp/htdocs/acme/install_files/temp/50b424b156f0b335ba87925d2ea83f82.arc
+[2019/01/10 02:58:12] Step downloadTheme +OK
+[2019/01/10 02:58:12] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2019/01/10 02:58:12] Postback payload: Array
+(
+    [step] => extractCore
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => d1028fbd034b2639b0d2ca0869002836
+                    [build] => 446
+                    [uhash] => b4b79ec07b137e6c84605ac76f616781
+                )
+
+            [plugins] => Array
+                (
+                    [RainLab.Blog] => 791f8428613d4d383481462d3d271477
+                )
+
+            [themes] => Array
+                (
+                    [Responsiv.Clean] => 07e5b7066168a94349ac92018770c2e8
+                )
+
+        )
+
+    [handler] => onInstallStep
+)
+
+[2019/01/10 02:58:12] Install step: extractCore
+[2019/01/10 02:58:12] Extracting file (core): a74ad8dfacd4f985eb3977517615ce25.arc
+[2019/01/10 03:03:08] Step extractCore +OK
+[2019/01/10 03:03:08] Execute handler (onInstallStep): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2019/01/10 03:03:08] Postback payload: Array
+(
+    [step] => extractPlugin
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => d1028fbd034b2639b0d2ca0869002836
+                    [build] => 446
+                    [uhash] => b4b79ec07b137e6c84605ac76f616781
+                )
+
+            [plugins] => Array
+                (
+                    [RainLab.Blog] => 791f8428613d4d383481462d3d271477
+                )
+
+            [themes] => Array
+                (
+                    [Responsiv.Clean] => 07e5b7066168a94349ac92018770c2e8
+                )
+
+        )
+
+    [name] => RainLab.Blog
+    [handler] => onInstallStep
+)
+
+[2019/01/10 03:03:08] Install step: extractPlugin
+[2019/01/10 03:03:08] Extracting file (RainLab.Blog-plugin): 33b538b0804bdcfce25684369ded882c.arc
+[2019/01/10 03:03:14] Step extractPlugin +OK
+[2019/01/10 03:03:14] Execute handler (onInstallStep): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2019/01/10 03:03:14] Postback payload: Array
+(
+    [step] => extractTheme
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => d1028fbd034b2639b0d2ca0869002836
+                    [build] => 446
+                    [uhash] => b4b79ec07b137e6c84605ac76f616781
+                )
+
+            [plugins] => Array
+                (
+                    [RainLab.Blog] => 791f8428613d4d383481462d3d271477
+                )
+
+            [themes] => Array
+                (
+                    [Responsiv.Clean] => 07e5b7066168a94349ac92018770c2e8
+                )
+
+        )
+
+    [name] => Responsiv.Clean
+    [handler] => onInstallStep
+)
+
+[2019/01/10 03:03:14] Install step: extractTheme
+[2019/01/10 03:03:14] Extracting file (Responsiv.Clean-theme): 50b424b156f0b335ba87925d2ea83f82.arc
+[2019/01/10 03:03:17] Step extractTheme +OK
+[2019/01/10 03:03:18] Execute handler (onInstallStep): Array
+(
+    [result] => 1
+)
+
+.============================ POST REQUEST ==========================.
+[2019/01/10 03:03:18] Postback payload: Array
+(
+    [step] => setupConfig
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => d1028fbd034b2639b0d2ca0869002836
+                    [build] => 446
+                    [uhash] => b4b79ec07b137e6c84605ac76f616781
+                )
+
+            [plugins] => Array
+                (
+                    [RainLab.Blog] => 791f8428613d4d383481462d3d271477
+                )
+
+            [themes] => Array
+                (
+                    [Responsiv.Clean] => 07e5b7066168a94349ac92018770c2e8
+                )
+
+        )
+
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => acme_oct
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => Shahbaz
+    [admin_last_name] => Zaidi
+    [admin_email] => *******@*****.com
+    [admin_login] => admin
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [active_theme] => Responsiv.Clean
+    [handler] => onInstallStep
+)
+
+[2019/01/10 03:03:18] Install step: setupConfig
+[2019/01/10 02:03:19] Step setupConfig +OK
+[2019/01/10 02:03:19] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2019/01/10 03:03:20] Postback payload: Array
+(
+    [step] => createAdmin
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => d1028fbd034b2639b0d2ca0869002836
+                    [build] => 446
+                    [uhash] => b4b79ec07b137e6c84605ac76f616781
+                )
+
+            [plugins] => Array
+                (
+                    [RainLab.Blog] => 791f8428613d4d383481462d3d271477
+                )
+
+            [themes] => Array
+                (
+                    [Responsiv.Clean] => 07e5b7066168a94349ac92018770c2e8
+                )
+
+        )
+
+    [db_type] => mysql
+    [db_host] => localhost
+    [db_port] => 
+    [db_name] => acme_oct
+    [db_user] => root
+    [db_pass] => *******
+    [admin_first_name] => Shahbaz
+    [admin_last_name] => Zaidi
+    [admin_email] => *******@*****.com
+    [admin_login] => admin
+    [admin_password] => *******
+    [admin_confirm_password] => *******
+    [backend_uri] => /backend
+    [encryption_code] => *******
+    [file_mask] => 777
+    [folder_mask] => 777
+    [active_theme] => Responsiv.Clean
+    [handler] => onInstallStep
+)
+
+[2019/01/10 03:03:20] Install step: createAdmin
+[2019/01/10 02:03:56] Step createAdmin +OK
+[2019/01/10 02:03:56] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2019/01/10 03:03:56] Postback payload: Array
+(
+    [disableLog] => 1
+)
+
+[2019/01/10 03:03:56] Install step: setupProject
+[2019/01/10 03:03:56] Step setupProject +OK
+[2019/01/10 03:03:56] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
+.============================ POST REQUEST ==========================.
+[2019/01/10 03:03:57] Postback payload: Array
+(
+    [step] => finishInstall
+    [meta] => Array
+        (
+            [core] => Array
+                (
+                    [hash] => d1028fbd034b2639b0d2ca0869002836
+                    [build] => 446
+                    [uhash] => b4b79ec07b137e6c84605ac76f616781
+                )
+
+            [plugins] => Array
+                (
+                    [RainLab.Blog] => 791f8428613d4d383481462d3d271477
+                )
+
+            [themes] => Array
+                (
+                    [Responsiv.Clean] => 07e5b7066168a94349ac92018770c2e8
+                )
+
+        )
+
+    [hash] => d1028fbd034b2639b0d2ca0869002836
+    [build] => 446
+    [uhash] => b4b79ec07b137e6c84605ac76f616781
+    [handler] => onInstallStep
+)
+
+[2019/01/10 03:03:57] Install step: finishInstall
+[2019/01/10 02:03:58] Cleaning up file: 33b538b0804bdcfce25684369ded882c.arc
+[2019/01/10 02:03:58] Cleaning up file: 50b424b156f0b335ba87925d2ea83f82.arc
+[2019/01/10 02:03:58] Cleaning up file: a74ad8dfacd4f985eb3977517615ce25.arc
+[2019/01/10 02:03:58] Step finishInstall +OK
+[2019/01/10 02:03:58] Execute handler (onInstallStep): Array
+(
+    [result] => 
+)
+
