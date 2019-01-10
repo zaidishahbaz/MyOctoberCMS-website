@@ -1,0 +1,15 @@
+name: Acme
+description: 'Simple Bootswatch theme'
+author: 'Brad Traversy '
+homepage: 'http://shahbazzzaidi.esy.es'
+code: ''
+form:
+  fields:
+    site_name:
+      label: Site name
+      comment: The global website name
+      default: Acme
+    site_name:
+      label: Site description
+      comment: The global website description
+      default: Rate of change of momentum is directly proportional to the impressed force
